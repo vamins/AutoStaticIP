@@ -1,5 +1,5 @@
 # AutoStaticIP
- script multiplataforma (Windows y macOS) diseñado para encontrar y configurar automáticamente una dirección IP estática libre dentro de una red local
+ script diseñado para encontrar y configurar automáticamente una dirección IP estática libre dentro de una red local
 ## Requisitos
 ### Para Usuarios Finales (usando el `.exe` compilado)
 
@@ -10,10 +10,6 @@
         - **Importante:** Durante la instalación de Npcap, asegurarse de marcar la casilla **"Install Npcap in WinPcap API-compatible Mode"**.
             
     - **Permisos de Administrador:** El programa debe ser ejecutado como Administrador para poder modificar la configuración de red.
-        
-- **macOS:**
-    
-    - **Permisos de Superusuario:** El script debe ser ejecutado con `sudo`.
        
 
 ### Para Desarrolladores (ejecutando el script `.py`)
